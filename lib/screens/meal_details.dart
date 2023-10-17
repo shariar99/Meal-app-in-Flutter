@@ -108,8 +108,7 @@ class MealDetailsScreen extends StatelessWidget {
                             const SizedBox(height: 5),
                             Text(
                               entry.value,
-                              textAlign: TextAlign.start,
-                              style: const TextStyle(color: Colors.white),
+                              style: const TextStyle(color: Colors.white,),
                             ),
                             const SizedBox(height: 10),
                           ],
